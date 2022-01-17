@@ -52,9 +52,11 @@ header{
 /*CONTAINER DO MAIN-----*/
 
 .container{
-    height: 110vh;
+    height: 120vh;
     display: flex;
     width: 100%;
+    box-shadow: #dedede 0px 0px 9px 4px;
+    margin-bottom: 10px;
 }
 .container .div-left{
     background: #ef2b41;
@@ -98,7 +100,7 @@ header{
 
 .container .div-right{
     background: rgb(255, 255, 255);
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
