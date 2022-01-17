@@ -35,6 +35,7 @@ header{
     display: inline-block;
     margin-left: 40px;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .navbar a{
@@ -44,10 +45,14 @@ header{
     margin-right: 5px;
 }
 
-.menu{
-    margin-left: 20px;
-    cursor: pointer;
+.car-openner{
+    margin-right: 15px;
+    font-size: 26px;
+    background: #eb7d89;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
+
 
 /*CONTAINER DO MAIN-----*/
 
@@ -111,3 +116,46 @@ header{
     left: 500px;
     transform: rotate(-5deg);
 }
+
+/*CATEGORIAS-------*/
+
+.container-categ{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-categ h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: #ef2b41 solid 3px;
+    max-width: 312px;
+    margin: 0 auto;
+    padding-bottom: 4px;
+}
+
+.categorias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categorias ul li{
+    margin-top: 40px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: #ef2b41 solid 3px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.categorias li:hover{
+    background: #ef2b41;
+    color: #fff;
+}
+
+
