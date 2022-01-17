@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    color:#fff;
+    letter-spacing: 4px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: 100;
+    color: #616161;
+    margin-right: 5px;
+}
+
+.menu{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/*CONTAINER DO MAIN-----*/
+
+.container{
+    height: 110vh;
+    display: flex;
+    width: 100%;
+}
+.container .div-left{
+    background: #ef2b41;
+    height: 120vh;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-left h1{
+    font-size: 90px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.div-left p{
+    margin: 20px 30px;
+    font-size: 18px;
+    width: 60%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-left .btn{
+    width: 30%;
+    margin-left: 30px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: .5s ease-in-out;
+}
+
+.div-left .btn:hover{
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.container .div-right{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+
+.div-right img{
+    height: 600px;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    transform: rotate(-5deg);
+}
