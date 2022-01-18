@@ -120,7 +120,7 @@ header{
 /*CATEGORIAS-------*/
 
 #products{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
@@ -145,6 +145,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .categorias ul li{
@@ -166,10 +167,63 @@ header{
 /*PRODUTOS PELO JAVASCRIPT*/
 
 #produtos{
+    width: 90%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 25px;
+    box-shadow: #dedede 0px 0px 9px 4px;
+    position: relative;
+}
+
+#produtos .cel{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size:26px; 
+ 	line-height: 30px; 
+ 	color: #000; 
+ 	font-weight: bold;  
+ 	text-transform: uppercase;
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    padding: 18px;
+    margin:10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 25%;
+}
+
+.card .imgBx{
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 
+
+.card .contentBx .desc p{
+    font-size: 15px;
+}
+
+.card .contentBx .preco{
+    margin-bottom: 15px;
+}
+
+.card .contentBx a{
+    box-shadow: #dedede 0px 0px 9px 4px;
+    padding: 10px;
+    color: #000;
+    transition: .2s ease-in-out;
+}
+
+.card .contentBx a:hover{
+    background: #ef2b41;
+    color: #fff;
+}
   
   
   

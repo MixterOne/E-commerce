@@ -24,7 +24,16 @@ const produtos = [
         desc: 'loremmmmmmm',
         preço: 'R$-200',
         quantidade: 0
-    }
+    },
+
+    {
+      id: 3,
+      nome: 'Galaxy A023',
+      img: '../imgs/GalaxyA02.png',
+      desc: 'loremmmmmmm',
+      preço: 'R$-200',
+      quantidade: 0
+  }
 ]
 
 iniciarLoja = () =>{
@@ -35,22 +44,25 @@ iniciarLoja = () =>{
     for(let produto of produtos){
         produtosContainer.innerHTML += `
         <div class="card">
-    <div class="imgBx">
-      <img src= ${produto.img}>
-    </div>
-    <div class="contentBx">
-      <h2>${produto.nome}}</h2>
-      
-      <div class="color">
-        <p>${produto.desc}</p>
-      </div>
-      <div class = "preco">
-        <h3>${produto.preço}</h3>
-      </div>
+          
+          <div class="imgBx">
+            <img src= ${produto.img}>
+          </div>
 
-      <a href="#">Buy Now</a>
-    </div>
-  </div>
+          <div class="contentBx">
+            <h2>${produto.nome}</h2>
+            
+          <div class="desc">
+            <p>${produto.desc}</p>
+          </div>
+
+          <div class = "preco">
+            <h3>${produto.preço}</h3>
+          </div>
+
+          <a href="#">Buy Now</a>
+          </div>
+        </div>
 
         `;
     }
