@@ -1,71 +1,69 @@
 const produtos = [
-    {
-        id: 0,
-        nome: 'Galaxy A02',
-        img: '../imgs/GalaxyA02.png',
-        desc: 'loremmmmmmm',
-        preço: 'R$-500',
-        quantidade: 0
-    },
+  {
+    id: 0,
+    nome: 'Galaxy A02',
+    img: '../imgs/GalaxyA02.png',
+    preço: 'R$-500',
+    quantidade: 0
+  },
 
-    {
-        id: 1,
-        nome: 'Galaxy A024',
-        img: '../imgs/GalaxyA02.png',
-        desc: 'loremmmmmmm',
-        preço: 'R$-300',
-        quantidade: 0
-    },
+  {
+    id: 1,
+    nome: 'Galaxy A024',
+    img: '../imgs/MotoG50.png',
+    preço: 'R$-300',
+    quantidade: 0
+  },
 
-    {
-        id: 2,
-        nome: 'Galaxy A023',
-        img: '../imgs/GalaxyA02.png',
-        desc: 'loremmmmmmm',
-        preço: 'R$-200',
-        quantidade: 0
-    },
+  {
+    id: 2,
+    nome: 'Motorola Moto E7',
+    img: '../imgs/MotorolaMotoE7.png',
+    preço: 'R$-200',
+    quantidade: 0
+  },
 
-    {
-      id: 3,
-      nome: 'Galaxy A023',
-      img: '../imgs/GalaxyA02.png',
-      desc: 'loremmmmmmm',
-      preço: 'R$-200',
-      quantidade: 0
+  {
+    id: 3,
+    nome: 'Redmi',
+    img: '../imgs/Redmi.png',
+    preço: 'R$-200',
+    quantidade: 0
   }
 ]
 
-iniciarLoja = () =>{
- 
+iniciarLoja = () => {
 
-    let produtosContainer = document.querySelector('#produtos');
 
-    for(let produto of produtos){
-        produtosContainer.innerHTML += `
-        <div class="card">
+  let produtosContainer = document.querySelector('#produtos');
+
+  for (let produto of produtos) {
+    produtosContainer.innerHTML += `
+      <div class="card">
           
-          <div class="imgBx">
-            <img src= ${produto.img}>
-          </div>
+        <div class="imgBx">
+          <img src= ${produto.img}>
+        </div>
 
-          <div class="contentBx">
+        <div class="contentBx">
             <h2>${produto.nome}</h2>
-            
-          <div class="desc">
-            <p>${produto.desc}</p>
-          </div>
 
-          <div class = "preco">
-            <h3>${produto.preço}</h3>
-          </div>
+            <div class = "preco">
+              <h3>${produto.preço}</h3>
+            </div>
 
-          <a href="#">Buy Now</a>
+            <a href="#" id="fbutton" class="btn">Buy Now</a>
+            <div class = "before"></div>
           </div>
         </div>
 
-        `;
-    }
+        
+    
+      `;
+    
+  }
 }
 
+
 iniciarLoja()
+
