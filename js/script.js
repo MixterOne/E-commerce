@@ -1,34 +1,26 @@
 const produtos = [
   {
-    id: 0,
     nome: 'Galaxy A02',
     img: '../imgs/GalaxyA02.png',
     preço: 'R$-500',
-    quantidade: 0
   },
 
   {
-    id: 1,
     nome: 'Galaxy A024',
     img: '../imgs/MotoG50.png',
     preço: 'R$-300',
-    quantidade: 0
   },
 
   {
-    id: 2,
     nome: 'Motorola Moto E7',
     img: '../imgs/MotorolaMotoE7.png',
     preço: 'R$-200',
-    quantidade: 0
   },
 
   {
-    id: 3,
     nome: 'Redmi',
     img: '../imgs/Redmi.png',
     preço: 'R$-200',
-    quantidade: 0
   }
 ]
 
