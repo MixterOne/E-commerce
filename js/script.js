@@ -6,7 +6,7 @@ const produtos = [
   },
 
   {
-    nome: 'Galaxy A024',
+    nome: 'MotoG50',
     img: '../imgs/MotoG50.png',
     preço: 'R$-300',
   },
@@ -54,8 +54,12 @@ iniciarLoja = () => {
       `;
     
   }
+
+  
+
 }
 
 
 iniciarLoja()
+
 
