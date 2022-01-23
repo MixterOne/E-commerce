@@ -45,7 +45,6 @@ iniciarLoja = () => {
             </div>
 
             <a href="#" id="fbutton" class="btn">Buy Now</a>
-            <div class = "before"></div>
           </div>
         </div>
 
